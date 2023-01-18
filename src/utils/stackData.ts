@@ -1,39 +1,41 @@
-import imgHTML from "../public/static/img/stack/html.svg";
-import imgCSS from "../public/static/img/stack/css.svg";
-import imgJS from "../public/static/img/stack/js.svg";
-import imgNode from "../public/static/img/stack/node.svg";
-import imgStyled from "../public/static/img/stack/styled.svg";
-import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
+import { SiTsnode } from "react-icons/si";
+import { SiStyledcomponents } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
+import { SiPuppeteer } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
 
 export const stackData = [
   {
     title: "HTML",
-    img: imgHTML,
+    img: FaHtml5,
   },
   {
     title: "CSS",
-    img: imgCSS,
+    img: FaCss3Alt,
   },
   {
     title: "JS",
-    img: imgJS,
+    img: SiJavascript,
   },
   {
     title: "Node JS",
-    img: imgNode,
+    img: SiTsnode,
   },
   {
     title: "Styled Components",
-    img: imgStyled,
+    img: SiStyledcomponents,
   },
   {
     title: "React",
-    img: imgReact,
+    img: FaReact,
   },
-  { title: "Vuejs", img: FaVuejs },
   { title: "TypeScript", img: SiTypescript },
   { title: "Docker", img: FaDocker },
+  { title: "Puppeteer", img: SiPuppeteer },
+  { title: "Python", img: FaPython },
 ];
